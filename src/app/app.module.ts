@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { DateTimeComponent } from './date-time/date-time.component';
 import { TransactionsPanelComponent } from './transactions-panel/transactions-panel.component';
+import { TaskComponent } from './task/task.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DateTimeComponent,
-    TransactionsPanelComponent
+    TransactionsPanelComponent,
+    TaskComponent
   ],
   imports: [
     BrowserModule
