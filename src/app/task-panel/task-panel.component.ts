@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import tasks from '../tasks';
 
 @Component({
-  selector: 'app-task',
+  selector: 'app-task-panel',
   templateUrl: './task-panel.component.html',
   styleUrls: ['./task-panel.component.css']
 })
