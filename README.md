@@ -61,7 +61,7 @@ Let's use our data to dynamically make some html and components show up in our p
   * In the `OnNgInit`method, assign this array to a class property called `tasks` 
   * In `task-panel.component.html` use `ngFor` on the `<app-task-item>` element
   * `<app-task-item *ngFor="let task of tasks"></app-task-item>`
-  * We shoudl now see multiple rows in the task panel.n
+  * We shoudl now see multiple rows in the task panel.
 * TopNav (top-nav.component.ts)
   * Import the messages array into this component from `./src/app/messages.ts`
   * In the `OnNgInit`method, assign this array to a class property called `messages` 
