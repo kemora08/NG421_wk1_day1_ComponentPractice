@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import tasks from '../tasks';
 
 @Component({
   selector: 'app-task',
@@ -6,11 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./task-panel.component.css']
 })
 export class TaskComponent implements OnInit {
+  tasks: { id: number; task: string; date: string; }[];
 
   constructor() { }
 
   ngOnInit() {
-    
+    this.tasks = tasks;
   }
 
 }

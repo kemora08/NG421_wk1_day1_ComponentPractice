@@ -7,18 +7,16 @@
             <table class="table table-bordered table-hover table-striped">
                 <thead>
                     <tr>
-                        <th>Order #</th>
-                        <th>Order Date</th>
-                        <th>Order Time</th>
-                        <th>Amount (USD)</th>
+                        <th> Task #</th>
+                        <th>Task Date</th>
+                        <th>Task Time</th>
                     </tr>
                 </thead>
                 <tbody>
-                <tr><app-task-item>*ngFor="let task of task"</app-task-item> 
-                        <td>{{task.id}}</td>>
-                        <td>{{task.taskDate}}</td>
-                        <td>{{task.taskTime}}</td>
-                        <td>{{task.amount}}</td>
+                <tr><app-task-time *ngFor = "lets task of tasks"></app-task-time>
+                    <td>{{task.id}}</td>>
+                    <td>{{task.taskDate}}</td>
+                    <td>{{task.taskTime}}</td>
                     </tr>
                 </tbody>
             </table>
